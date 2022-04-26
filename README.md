@@ -1,4 +1,5 @@
-All scripts require GraphFrames 0.1.0 and Spark 1.6.
+
+*All scripts require GraphFrames 0.1.0 and Spark 1.6.
 ================================================================
 * Prerequisite
 
