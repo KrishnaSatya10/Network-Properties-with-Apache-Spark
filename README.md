@@ -10,7 +10,8 @@ Run the following commands in any new terminal window before executing a file. T
 	pip install pandas
 ================================================================
 
-* degree.py *
+* degree.py 
+
 This contains the requested degreedist function.
 Usage:
 	$SPARK_HOME/bin/pyspark --packages graphframes:graphframes:0.1.0-spark1.6 degree.py [filename [large]]
@@ -44,7 +45,8 @@ also assumes that the delimiter is a space. If the second argument
 is absent (or anything other than "large") it's assumed that all
 lines represent edges and that the delimiter is a comma.
 	
-* centrality.py * 
+* centrality.py 
+
 This program contains the requested closeness function.
 Usage:
 	$SPARK_HOME/bin/pyspark --packages graphframes:graphframes:0.1.0-spark1.6 centrality.py
@@ -58,7 +60,8 @@ of highest centrality to lowest.
 When executed, this script will generate the graph given in the
 assignment and calculate its nodes' closeness centrality.
 	
-* articulation.py *
+* articulation.py
+
 This program contains the requested articulations function.
 Usage:
 	$SPARK_HOME/bin/pyspark --packages graphframes:graphframes:0.1.0-spark1.6 articulation.py [filename]
