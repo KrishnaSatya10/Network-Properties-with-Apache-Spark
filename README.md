@@ -1,6 +1,6 @@
 All scripts require GraphFrames 0.1.0 and Spark 1.6.
 ================================================================
-* Prerequisite * 
+* Prerequisite
 
 Run the following commands in any new terminal window before executing a file. This ensures that python 2 is used instead of the default python 3.
 
@@ -13,6 +13,7 @@ Run the following commands in any new terminal window before executing a file. T
 * degree.py 
 
 This contains the requested degreedist function.
+
 Usage:
 	$SPARK_HOME/bin/pyspark --packages graphframes:graphframes:0.1.0-spark1.6 degree.py [filename [large]]
 
@@ -48,6 +49,7 @@ lines represent edges and that the delimiter is a comma.
 * centrality.py 
 
 This program contains the requested closeness function.
+
 Usage:
 	$SPARK_HOME/bin/pyspark --packages graphframes:graphframes:0.1.0-spark1.6 centrality.py
 Notes:
@@ -63,6 +65,7 @@ assignment and calculate its nodes' closeness centrality.
 * articulation.py
 
 This program contains the requested articulations function.
+
 Usage:
 	$SPARK_HOME/bin/pyspark --packages graphframes:graphframes:0.1.0-spark1.6 articulation.py [filename]
 
